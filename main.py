@@ -71,7 +71,7 @@ RED = (255, 0, 0)
 
 # Set up the clock for managing the frame rate
 clock = pygame.time.Clock()
-fps = 60  # Increase the frame rate to make the game run faster
+fps = 100000  # Increase the frame rate to make the game run faster
 
 # Define the game board layout
 board = [
@@ -79,8 +79,8 @@ board = [
     "#..................#",
     "#.####.#####.####..#",
     "#..................#",
-    "#.####.#.###.#.####.#",
-    "#......#.....#......#",
+    "#.####.#.###.#.###.#",
+    "#......#.....#.....#",
     "####################"
 ]
 
